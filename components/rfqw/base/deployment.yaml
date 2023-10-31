@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: rfqw
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-pexw-tenant/byoc-app-ivbx/rfqw@sha256:a989f9b523e99488f351a9b25c017e0a7a35a30014f04315c004db0bd30a9ffe
         name: my-java-quarkus
         ports:
         - containerPort: 8081
